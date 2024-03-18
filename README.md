@@ -2,7 +2,8 @@
 
 ## Part One (The Console)
 
-!['Airbnb image'](https://github.com/john-otienoh/AirBnB_clone/assets/125456275/6ed977a1-74b5-4920-9fc2-6f3f2aaed177)
+![AirBnB image](https://github.com/Mabende/AirBnB_clone/assets/125456275/4af43f5d-9f59-46e9-a8c4-7f407bc7c290)
+
 
 ### First step: 
 
