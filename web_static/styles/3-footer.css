@@ -1,0 +1,17 @@
+.footer {
+    background-color: #FFFFFF; /* Set background color to white */
+    height: 60px;
+    width: 100%;
+    border-top: 1px solid #CCCCCC; /* Add a 1px top border with color #CCCCCC */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+footer p {
+    position: absolute;
+    text-align: center;
+    top: 10%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}

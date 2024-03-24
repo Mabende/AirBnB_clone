@@ -1,0 +1,86 @@
+/* styles/8-places.css */
+
+.places {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.places h1 {
+    width: 100%;
+    text-align: left;
+    font-size: 30px;
+}
+
+.place {
+    width: 30%; /* Adjust width as needed */
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #FF5A5F;
+    border-radius: 4px;
+    position: relative;
+    text-align: center;
+}
+
+.place h2 {
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.price_by_night {
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    right: 10px;
+    min-width: 60px;
+    height: 60px;
+    font-size: 30px;
+    color: #FF5A5F;
+    border: 4px solid #FF5A5F;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.information {
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.max_guest, .number_rooms, .number_bathrooms {
+    width: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.icon_group, .icon_bed, .icon_bath {
+    width: 20px;
+    height: 20px;
+    background-color: #FF5A5F;
+    margin-right: 10px;
+}
+
+.icon_bed::before {
+    content: "🛏️";
+}
+
+.icon_bath::before {
+    content: "🚿";
+}
+
+.icon_group::before {
+    content: "👥";
+}
+
+.user, .description {
+    margin-top: 10px;
+}
+
+.user strong {
+    font-weight: bold;
+}
+
+/* Additional styles for places if needed */
