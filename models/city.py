@@ -10,4 +10,3 @@ class City(BaseModel):
     """City class represents a city within a state."""
     state_id = ""
     name = ""
-

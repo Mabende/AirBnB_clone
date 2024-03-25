@@ -52,7 +52,8 @@ class TestBaseModel(unittest.TestCase):
 
     def test_dict_type(self):
         """
-        Test if dictionary returned by to_dict() method contains 'id' key of type string.
+        Test if dictionary returned by to_dict() method,
+        contains 'id' key of type string.
         """
         obj = BaseModel()
         to_dict_dict = obj.to_dict()
@@ -76,7 +77,8 @@ class TestBaseModel(unittest.TestCase):
 
     def test_valid_to_dict(self):
         """
-        Test if to_dict() method returns a valid dictionary with correct datetime formatting.
+        Test if to_dict() method
+        returns a valid dictionary with correct datetime formatting.
         """
         obj = BaseModel()
         to_dict_dict = obj.to_dict()
@@ -93,4 +95,3 @@ class TestBaseModel(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-
